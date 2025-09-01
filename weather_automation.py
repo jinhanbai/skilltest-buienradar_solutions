@@ -217,7 +217,7 @@ def main():
     """Main function to run the weather data collection"""
     # Get the script directory and set up database path
     script_dir = Path(__file__).parent
-    db_path = script_dir / "database" / "weather_cont.db"
+    db_path = script_dir / "database" / "weather_stream.db"
     
     # Ensure database directory exists
     db_path.parent.mkdir(exist_ok=True)
