@@ -33,7 +33,7 @@ The Buienradar Client is a wrapper that performs the automation pipeline with lo
 That is:
 1) Fetch the data from API
 2) Filters and processes the data
-3) Stores/updates the tables in the continuous database (weather_cont.db)
+3) Stores/updates the tables in the continuous database (weather_stream.db)
 
 '''
 class BuienradarClient:
